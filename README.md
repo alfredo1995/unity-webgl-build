@@ -6,7 +6,8 @@ Acessa o jogo : https://alfredo1995.github.io/Mario2D/
 
 
 
-    ----------- hospedando jogo no github e webgl
+Hospedando jogo no github 
+
     
     1) Edit > Projetc Settings > Player > Resolutions and Representation > marcar a caixa > Run in Background
     
@@ -21,5 +22,19 @@ Acessa o jogo : https://alfredo1995.github.io/Mario2D/
     6> config > page > branch none > trocar para main > save
     
     
+ Hospedando jogo no github WebGL / Itch.io
     
     
+    1) Edit > Projetc Settings > Player > Resolutions and Representation > marcar a caixa > Run in Background
+    
+    2) Edit > Projetc Settings > Player > Publishing Settings > Compression format > marcar a caixa > Dissabled
+    
+    3) Unity 3.0 > Intal > Version da unity do jogo >  Add modulos > webglbuild support
+    
+    4) File > Build Settings > Build and Run > Criar uma nova pasta > Selecionar a pasta para ser executador a build
+    
+    5) acessar o site https://itch.io > Perfil > Upload new Project > Der o nome ao projeto  > Kind of project > Selecione > HTML you have zip
+    
+    6 ) Uploads > Upload files > Acessa a nova pasta criada > selecione todos os arquivos > compactar todos os arquivo em um so zip > 
+    
+    7 > Apos o upload > Selecione a opção > This file will be played in the browser  >  opcional mudar a Emedend point ( resolução da tela )
