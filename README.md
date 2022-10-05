@@ -1,7 +1,4 @@
-Hospedando um Jogo Unity baseado em WebGL no GitHub
-
-Acessa o jogo : https://alfredo1995.github.io/Mario2D/
-
+Hospedando um Jogo Unity baseado em WebGL no GitHub: https://alfredo1995.github.io/simulador-direcao-unity/
 
 
 Hospedando jogo no github 
@@ -20,7 +17,7 @@ Hospedando jogo no github
     6> config > page > branch none > trocar para main > save
     
     
- Hospedando jogo no github WebGL / Itch.io
+Hospedando jogo no Itch.io
     
     
     1) Edit > Projetc Settings > Player > Resolutions and Representation > marcar a caixa > Run in Background
