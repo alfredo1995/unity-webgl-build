@@ -38,4 +38,8 @@ Hospedando jogo no Itch.io
     
 Hospedando jogo android
 
+    Download > Unity Remote 5
 
+    Edit > Project Setting > Player > Publishing Settings > KeyStore Manager > Create New > AnyWhere
+    
+    File > Build Setting > Android > Rund dive > Select You Phone > Build and Run > Selecet You Key;
