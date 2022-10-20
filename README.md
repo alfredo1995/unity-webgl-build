@@ -39,6 +39,8 @@ Hospedando jogo no Itch.io
 Hospedando jogo android
 
     Download > Unity Remote 5
+    
+    Ativar modo Desenvolvedor do Celular
 
     Edit > Project Setting > Player > Publishing Settings > KeyStore Manager > Create New > AnyWhere
     
