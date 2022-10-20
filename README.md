@@ -45,3 +45,67 @@ Hospedando jogo android
     Edit > Project Setting > Player > Publishing Settings > KeyStore Manager > Create New > AnyWhere
     
     File > Build Setting > Android > Rund dive > Select You Phone > Build and Run > Selecet You Key;
+
+Ball Controller Accelerometer
+
+        using UnityEngine;
+
+        public class Example : MonoBehaviour
+        {
+            // Move object using accelerometer
+            float speed = 10.0f;
+
+            void Update()
+            {
+                Vector3 dir = Vector3.zero;
+
+                // eixo de aceleração do dispositivo mapeamento as coordenadas do jogo:        
+                //  1) Plano XY do dispositivo é mapeado no plano XZ
+                //  2) rotacionado 90 grau em torno eixo Y
+                dir.x = -Input.acceleration.y;
+                dir.z = Input.acceleration.x;
+
+                // vetor de aceleração do grampo p/ esfera
+                if (dir.sqrMagnitude > 1)
+                    dir.Normalize();
+
+                // Movendo-se a 10 metros por segundo em vez de 10 metros por quadro...
+                dir *= Time.deltaTime;
+
+                // Move object
+                transform.Translate(dir * speed);
+            }
+        }
+        
+        
+  <br>      
+        
+Ball Controll Gyro
+
+
+        using UnityEngine;
+        using UnityEngine.UI;
+
+        public class InputGyroExample : MonoBehaviour
+        {
+            //Classe do giroscópio p/ visualizar a orientação no espaço do dispositivo.
+            
+            //Sensores subjacentes usados para população de dados:
+            Gyroscope m_Gyro;
+
+            void Start()
+            {
+                //configuração e habilitação do giroscópio
+                m_Gyro = Input.gyro;
+                m_Gyro.enabled = true;
+            }
+
+        //Função, confirindo a interface do usuário
+            void OnGUI()
+            {
+                //Output the rotation rate, attitude and the enabled state of the gyroscope as a Label
+                GUI.Label(new Rect(500, 300, 200, 40), "Gyro rotation rate " + m_Gyro.rotationRate);
+                GUI.Label(new Rect(500, 350, 200, 40), "Gyro attitude" + m_Gyro.attitude);
+                GUI.Label(new Rect(500, 400, 200, 40), "Gyro enabled : " + m_Gyro.enabled);
+            }
+        }
