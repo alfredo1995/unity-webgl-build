@@ -36,7 +36,7 @@ Hospedando jogo no Itch.io
     7 > Apos o upload > Selecione a opção > This file will be played in the browser  >  opcional mudar a Emedend point ( resolução da tela )
     
     
-Hospedando jogo android
+Build game android
 
     Download > Unity Remote 5
     
