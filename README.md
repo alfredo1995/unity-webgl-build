@@ -19,7 +19,7 @@ Hospedando jogo no github
     
     
 Hospedando jogo no Itch.io
-     
+      
     
     1) Edit > Projetc Settings > Player > Resolutions and Representation > marcar a caixa > Run in Background
     
