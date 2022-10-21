@@ -45,4 +45,4 @@ Build and run for android
 
     Edit > Project Setting > Player > Publishing Settings > KeyStore Manager > Create New > AnyWhere
     
-    File > Build Setting > Android > Rund dive > Select You Phone > Build and Run > Selecet You Key;
+    File > Build Setting > Android > Rund drive > Select You Phone > Build and Run > Selecet You Key;
