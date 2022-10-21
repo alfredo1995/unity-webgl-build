@@ -34,7 +34,7 @@ Hospedando jogo no Itch.io
     6 ) Upload files > Acessa a nova pasta criada > selecione todos os arquivos > Botão direito > enviar para > compactar os arquivo em um so zip 
     
     7 > Apos o upload > Selecione a opção > This file will be played in the browser  >  opcional mudar a Emedend point ( resolução da tela )
-    
+     
 <br>
 
 Build and run for android
