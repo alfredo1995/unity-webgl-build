@@ -31,12 +31,13 @@ Hospedando jogo no Itch.io
     
     5) acessar o site https://itch.io > Perfil > Upload new Project > Der o nome ao projeto  > Kind of project > Selecione > HTML you have zip
     
-    6 ) Uploads > Upload files > Acessa a nova pasta criada > selecione todos os arquivos > compactar todos os arquivo em um so zip > 
+    6 ) Upload files > Acessa a nova pasta criada > selecione todos os arquivos > Botão direito > enviar para > compactar os arquivo em um so zip 
     
     7 > Apos o upload > Selecione a opção > This file will be played in the browser  >  opcional mudar a Emedend point ( resolução da tela )
     
-    
-Build game android
+<br>
+
+Build and run for android
 
     Download > Unity Remote 5
     
