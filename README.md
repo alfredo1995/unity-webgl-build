@@ -1,4 +1,4 @@
-Hospedando um Jogo Unity baseado em WebGL no GitHub: https://alfredo1995.github.io/simulador-direcao-unity/
+Hospedando um Jogo Unity baseado em WebGL no GitHub
 
 <br>
 
