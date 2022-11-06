@@ -12,7 +12,7 @@ Hospedando jogo no github
     3) File > Build Settings > Build and Run > Criar uma nova pasta > Selecionar a pasta para ser executador a build
     
     4) Github > New Repostory > Dar o nome do Projeto > Create Repository > Uploading and existing file
-    
+     
     5) Acessar a nova pasta criada no passo 3 > copiar todos os arquivos e arrastar para o Uploading and existing file > commit changes
     
     6> config > page > branch none > trocar para main > save
